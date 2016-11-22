@@ -1,4 +1,3 @@
-import matplotlib.pyplot as plt
 import numpy as np
 n = 50000
 print('___________________________________________')
@@ -26,7 +25,7 @@ a = 0
 g = 1/(b-a)
 num = 0
 for i in range(n):
-    num <- num+(1/((np.random.uniform(a,b)+1)*np.sqrt(np.random.uniform(a,b))))
+    num = num+(1/((np.random.uniform(a,b)+1)*np.sqrt(np.random.uniform(a,b))))
 I = (1/n)*num/g
 
 b =100
@@ -34,7 +33,7 @@ a = 1
 g = 1/(b-a)
 num = 0
 for i in range(n):
-    num <- num+(1/((np.random.uniform(a,b)+1)*np.sqrt(np.random.uniform(a,b))))
+    num = num+(1/((np.random.uniform(a,b)-1)*np.sqrt(np.random.uniform(a,b))))
 
 I = I + (1/n) * num/g
 
